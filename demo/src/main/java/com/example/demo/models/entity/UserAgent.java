@@ -1,11 +1,9 @@
-package com.example.demo.models.entitity;
+package com.example.demo.models.entity;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,15 +13,16 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Subscription {
+public class UserAgent {
 	
 	@Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
-	private String email;
+	private String browser;
 	
-	@ManyToOne(cascade = {CascadeType.ALL})
-	private UserAgent userAgent;
+	private String ip;
+	
+	private String device;
 
 }

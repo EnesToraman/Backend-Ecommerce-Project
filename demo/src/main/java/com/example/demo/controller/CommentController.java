@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.models.dto.CommentDto;
-import com.example.demo.models.entitity.Comment;
+import com.example.demo.models.entity.Comment;
 import com.example.demo.service.CommentService;
 
 @RestController

@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.models.dto.CommentDto;
-import com.example.demo.models.entitity.Comment;
+import com.example.demo.models.entity.Comment;
 import com.example.demo.repository.CommentRepository;
 
 @Service

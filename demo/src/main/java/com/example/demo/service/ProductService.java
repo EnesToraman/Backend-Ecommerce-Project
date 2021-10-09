@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.demo.models.entitity.Product;
-import com.example.demo.models.entitity.Sales;
+import com.example.demo.models.entity.Product;
+import com.example.demo.models.entity.Sales;
 import com.example.demo.repository.BestSellingRepository;
 import com.example.demo.repository.ProductRepository;
 

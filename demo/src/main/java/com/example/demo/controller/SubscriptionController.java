@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.models.dto.SubscriptionDto;
-import com.example.demo.models.entitity.Subscription;
+import com.example.demo.models.entity.Subscription;
 import com.example.demo.service.SubscriptionService;
 
 import lombok.AllArgsConstructor;

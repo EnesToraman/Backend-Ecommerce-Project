@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.example.demo.models.entitity.Product;
+import com.example.demo.models.entity.Product;
 
 public interface ProductRepository extends CrudRepository<Product, Long>{
 	

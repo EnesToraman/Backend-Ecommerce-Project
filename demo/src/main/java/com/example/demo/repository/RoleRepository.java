@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.example.demo.models.ERole;
-import com.example.demo.models.entitity.Role;
+import com.example.demo.models.entity.Role;
 
 public interface RoleRepository extends JpaRepository<Role, Long>{
 	

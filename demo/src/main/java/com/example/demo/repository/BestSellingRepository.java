@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.models.entitity.Sales;
+import com.example.demo.models.entity.Sales;
 
 public interface BestSellingRepository extends JpaRepository<Sales, Long>{
 	

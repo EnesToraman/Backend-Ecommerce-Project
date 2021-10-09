@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.example.demo.models.entitity.Comment;
+import com.example.demo.models.entity.Comment;
 
 public interface CommentRepository extends CrudRepository<Comment, Long>{
 	

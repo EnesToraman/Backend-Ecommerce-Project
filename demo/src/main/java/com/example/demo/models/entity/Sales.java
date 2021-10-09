@@ -1,4 +1,4 @@
-package com.example.demo.models.entitity;
+package com.example.demo.models.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,16 +13,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Comment {
-	
-	@Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long id;
-	
-	private String name;
-	
-	private String email;
-	
-	private String comment;
+public class Sales {
 
+	@Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
+	private Long saleId;
+	
+	private Long productId;
+		
+	private Long quantity;
+	
 }

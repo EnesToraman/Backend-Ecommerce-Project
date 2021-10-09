@@ -1,4 +1,4 @@
-package com.example.demo.models.entitity;
+package com.example.demo.models.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,16 +13,16 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class UserAgent {
+public class Comment {
 	
 	@Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
-	private String browser;
+	private String name;
 	
-	private String ip;
+	private String email;
 	
-	private String device;
+	private String comment;
 
 }
